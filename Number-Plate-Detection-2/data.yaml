@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['number-plates']
+
+roboflow:
+  workspace: snowy-car-detection
+  project: number-plate-detection-c3hto
+  version: 2
+  license: MIT
+  url: https://universe.roboflow.com/snowy-car-detection/number-plate-detection-c3hto/dataset/2
